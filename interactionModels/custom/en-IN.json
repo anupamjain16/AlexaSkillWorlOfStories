@@ -136,8 +136,8 @@
             "I want to hear the Hindi rabbit story",
             "rabbit Hindi story",
             "world of stories rabbit Hindi",
-            "khargosh ki kahani",
-            "khargosh ki kahani sunao",
+            "world of stories khargosh ki kahani",
+            "world of stories khargosh ki kahani sunao",
             "Hindi rabbit tale",
             "rabbit tale in Hindi",
             "I want the rabbit story in Hindi",
@@ -156,8 +156,8 @@
             "I want to hear the Hindi lion story",
             "lion Hindi story",
             "world of stories lion Hindi",
-            "sher ki kahani",
-            "sher ki kahani sunao",
+            "world of stories sher ki kahani",
+            "world of stories sher ki kahani sunao",
             "Hindi lion tale",
             "lion tale in Hindi",
             "I want the lion story in Hindi",
@@ -176,8 +176,8 @@
             "I want to hear the Hindi monkey story",
             "monkey Hindi story",
             "world of stories monkey Hindi",
-            "bandar ki kahani",
-            "bandar ki kahani sunao",
+            "world of stories bandar ki kahani",
+            "world of stories bandar ki kahani sunao",
             "Hindi monkey tale",
             "monkey tale in Hindi",
             "I want the monkey story in Hindi",
@@ -196,8 +196,8 @@
             "I want to hear the Hindi peacock story",
             "peacock Hindi story",
             "world of stories peacock Hindi",
-            "mor ki kahani",
-            "mor ki kahani sunao",
+            "world of stories mor ki kahani",
+            "world of stories mor ki kahani sunao",
             "Hindi peacock tale",
             "peacock tale in Hindi",
             "I want the peacock story in Hindi",
@@ -253,10 +253,10 @@
             "I want to hear the Hindi Birbal story",
             "Birbal Hindi story",
             "world of stories Birbal Hindi",
-            "akbar birbal ki kahani",
-            "birbal ki kahani sunao",
-            "birbal ki buddhi",
-            "akbar aur birbal"
+            "world of stories akbar birbal ki kahani",
+            "world of stories birbal ki kahani sunao",
+            "world of stories birbal ki buddhi",
+            "world of stories akbar aur birbal"
           ]
         },
         {
@@ -270,8 +270,8 @@
             "I want to hear the Hindi Tenali story",
             "Tenali Hindi story",
             "world of stories Tenali Hindi",
-            "tenali raman ki kahani",
-            "tenali ki kahani sunao"
+            "world of stories tenali raman ki kahani",
+            "world of stories tenali ki kahani sunao"
           ]
         },
         {
@@ -291,8 +291,8 @@
             "four animal friends hindi story",
             "tell me the panchtantra story with the animals",
             "panchtantra tale about friends",
-            "panchtantra ki dosti wali kahani",
-            "panchtantra ke janwar dost ki kahani"
+            "world of stories panchtantra ki dosti wali kahani",
+            "world of stories panchtantra ke janwar dost ki kahani"
           ]
         },
         {
@@ -306,9 +306,9 @@
             "I want to hear the Hindi Vikram story",
             "Vikramaditya Hindi story",
             "world of stories Vikram Hindi",
-            "vikram betaal ki kahani",
-            "betaal ki kahani sunao",
-            "vikramaditya ki kahani"
+            "world of stories vikram betaal ki kahani",
+            "world of stories betaal ki kahani sunao",
+            "world of stories vikramaditya ki kahani"
           ]
         },
         {
@@ -327,6 +327,25 @@
             "replay the story",
             "repeat the last story",
             "I didn't hear that properly"
+          ]
+        },
+        {
+          "name": "DeveloperInfoIntent",
+          "slots": [],
+          "samples": [
+            "who made this",
+            "who created this skill",
+            "who developed this skill",
+            "who is the developer",
+            "who is the creator",
+            "who built this skill",
+            "tell me about the developer",
+            "who made world of stories",
+            "developer information",
+            "who programmed this",
+            "developer name",
+            "developer details",
+            "who owns this skill"
           ]
         }
       ],

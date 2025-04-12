@@ -18,6 +18,13 @@ const storyContent = {
     
     elephantStory: "Ellie the elephant was the largest animal in the World of Stories. Despite her size, she was very gentle and kind. Some smaller animals feared her because she was so big. One summer, a terrible drought hit the forest. The river dried up, and many animals couldn't find water. Ellie remembered a hidden spring deep in the mountains. With her strong trunk, she dug a channel from the spring to the forest, creating a new stream for everyone. The animals realized they had misjudged Ellie. The moral of the story is: Don't judge others by their appearance; true kindness comes from within. The end.",
     
+    // New English stories
+    giraffeStory: "In the sunny savannah lived a young giraffe named Gerry who had the shortest neck among all giraffes. The other giraffes could reach the tastiest leaves at the top of the trees, but Gerry couldn't. Instead of feeling sad, Gerry learned to be resourceful. He discovered delicious berries and plants that grew close to the ground that no other giraffe bothered to try. One year, a terrible drought came, and all the leaves on the tall trees dried up. While other giraffes struggled to find food, Gerry taught them about the plants he had discovered. Thanks to Gerry, the entire herd survived the drought. The moral of the story is: Your unique challenges can become your greatest strengths. The end.",
+    
+    beaverStory: "By the river lived a beaver named Ben who loved to build. Every day, he worked on his dam, making it stronger and bigger than any other beaver dam. The other animals thought Ben was too obsessed with his work. 'Why not relax like us?' they asked. Ben just smiled and kept building. When spring came, heavy rains caused the river to flood. Many animal homes were in danger, but Ben's strong dam held back the rushing water and protected everyone downstream. The animals realized that Ben's hard work had saved them all. The moral of the story is: Diligence and preparation today can prevent disasters tomorrow. The end.",
+    
+    eagleStory: "High in the mountains lived an eagle named Eddie. Unlike other eagles who soared alone, Eddie believed in teamwork. He taught younger eagles to fly in formation, taking turns at the front where the wind resistance was strongest. Other adult eagles laughed at this idea. But during the long migration south, Eddie's team flew farther each day while using less energy. They arrived at the warm southern lands days before the others, claiming the best nesting spots. Soon, all the eagles adopted Eddie's formation flying technique. The moral of the story is: Innovation and teamwork can achieve what individual effort cannot. The end.",
+    
     // Hindi stories
     rabbitStoryHindi: "एक बार की बात है, एक छोटा खरगोश था जिसका नाम था छोटू। छोटू बहुत घमंडी था और हमेशा अपनी तेज़ गति पर गर्व करता था। एक दिन उसने कछुए को धीमा चलते देखा और उसका मज़ाक उड़ाया। कछुए ने एक दौड़ का प्रस्ताव रखा जिसे छोटू ने हंसते हुए स्वीकार कर लिया। दौड़ के दिन, छोटू तेज़ी से आगे निकल गया और सोचा कि वह आराम कर सकता है। वह एक पेड़ के नीचे सो गया। इस बीच, कछुआ बिना रुके चलता रहा और अंत में दौड़ जीत गया। छोटू जब उठा तो देखा कि वह हार चुका था। इस कहानी का संदेश है: घमंड का अंत हमेशा पतन होता है और धैर्य और लगन से हर मुश्किल को पार किया जा सकता है। कहानी समाप्त।",
     
@@ -26,6 +33,13 @@ const storyContent = {
     monkeyStoryHindi: "एक जंगल में मिंकी नाम का एक बंदर रहता था। मिंकी बहुत चालाक था लेकिन हमेशा दूसरों की चीज़ें बिना पूछे ले लेता था। एक दिन उसने एक किसान की टोकरी से फल चुराए। भागते समय, वह एक पेड़ की टहनी से टकरा गया और सारे फल नीचे गिर गए। मिंकी बहुत शर्मिंदा हुआ। किसान ने उसे देखा और कहा, \"यदि तुम्हें फल चाहिए थे, तो तुम मुझसे पूछ सकते थे। मैं तुम्हें कुछ फल देने में ख़ुशी महसूस करता।\" मिंकी ने अपनी गलती मानी और माफी मांगी। उस दिन से, मिंकी ने कभी भी कुछ बिना पूछे नहीं लिया। इस कहानी का संदेश है: ईमानदारी हमेशा सबसे अच्छी नीति है। कहानी समाप्त।",
     
     peacockStoryHindi: "एक सुंदर मोर मयूर नाम का था जो अपने रंगीन पंखों पर बहुत गर्व करता था। वह अक्सर अन्य पक्षियों का मज़ाक उड़ाता था जो उतने सुंदर नहीं थे। एक दिन, एक भयंकर तूफान आया और मयूर के सभी सुंदर पंख भीग गए और भारी हो गए। वह उड़ नहीं सकता था और खतरे में था। एक साधारण दिखने वाला कौआ, जिसका नाम काकू था, ने मयूर को एक सुरक्षित स्थान पर पहुंचने में मदद की। मयूर को अहसास हुआ कि सुंदरता से ज्यादा अच्छा स्वभाव महत्वपूर्ण है। इस कहानी का संदेश है: बाहरी सौंदर्य से आंतरिक सौंदर्य अधिक महत्वपूर्ण है। कहानी समाप्त।",
+    
+    // New Hindi stories
+    butterflyStoryHindi: "एक पेड़ पर एक छोटा कीड़ा रहता था। वह हमेशा सोचता था, 'मैं इतना छोटा और साधारण क्यों हूँ?' दूसरे जानवर उसे नहीं देखते थे। एक दिन, उसने अपने आप को एक कोकून में लपेट लिया और कई दिनों तक सोया रहा। जब वह जागा, तो वह एक सुंदर तितली बन चुका था, रंगीन पंखों के साथ। वह आकाश में उड़ सकता था और सभी जानवर उसकी सुंदरता की प्रशंसा करते थे। एक छोटी चींटी ने पूछा, 'तुम इतने सुंदर कैसे बन गए?' तितली ने मुस्कुराते हुए जवाब दिया, 'परिवर्तन में समय लगता है, और कभी-कभी हमें अंधेरे में भी इंतज़ार करना पड़ता है। लेकिन प्रकृति हमेशा अपना काम करती है।' इस कहानी का संदेश है: धैर्य रखें, हर कठिन समय के बाद सुंदर परिणाम आते हैं। कहानी समाप्त।",
+    
+    sunflowerStoryHindi: "एक बगीचे में कई सारे फूल थे। एक कोने में एक छोटा सूरजमुखी का पौधा उगा। अन्य फूलों ने उसे देखा और कहा, 'तुम हमारी तरह सुंदर नहीं हो, तुम्हारे पास अभी कोई फूल भी नहीं है।' सूरजमुखी ने कुछ नहीं कहा और हर दिन सूरज की ओर अपना चेहरा करके खड़ा रहता। वह धीरे-धीरे बड़ा होता गया। एक दिन, उस पर एक विशाल सुनहरा फूल खिल गया जो सूरज की तरह चमकता था। जल्द ही वह बगीचे का सबसे ऊंचा और सुंदर फूल बन गया। सभी फूल उससे प्रेरणा लेने लगे। इस कहानी का संदेश है: अपना ध्यान अपने लक्ष्य पर रखें, और सफलता आपको मिलेगी। कहानी समाप्त।",
+    
+    mountainStoryHindi: "एक छोटे से गाँव में एक पर्वतारोही रहता था। उसे ऊंचे पहाड़ों पर चढ़ना पसंद था। एक दिन उसने गाँव के बच्चों को बताया कि वह सबसे ऊंचे पहाड़ पर चढ़ेगा। कुछ लोगों ने उसका मज़ाक उड़ाया, 'वह पहाड़ बहुत खतरनाक है, कोई नहीं चढ़ सकता।' पर्वतारोही ने हर दिन थोड़ा-थोड़ा अभ्यास किया, हर दिन थोड़ा आगे बढ़ा। कई महीनों के बाद, एक सुबह वह पहाड़ की चोटी पर पहुंच गया। नीचे से गाँव वालों ने उसे देखा और चकित रह गए। एक बच्चे ने पूछा, 'आपने इतना मुश्किल काम कैसे किया?' पर्वतारोही ने कहा, 'मैंने एक बार में एक कदम उठाया, और कभी हार नहीं मानी।' इस कहानी का संदेश है: धैर्य और दृढ़ता से कोई भी लक्ष्य प्राप्त किया जा सकता है। कहानी समाप्त।",
     
     // Additional classic Hindi stories
     birbalStoryHindi: "मुगल काल में अकबर के दरबार में एक बुद्धिमान मंत्री रहते थे जिनका नाम था बीरबल। एक दिन राजा अकबर ने अपने दरबारियों से एक पेंटिंग दिखाई और पूछा, \"इस पेंटिंग में क्या गलत है?\" पेंटिंग में एक व्यक्ति नाव में बैठा हुआ था और मछली पकड़ रहा था। कोई भी गलती नहीं बता पाया। तब बीरबल ने कहा, \"महाराज, इस पेंटिंग में दिखाया गया व्यक्ति मूर्ख है, क्योंकि वह अपने साथ मछली पकड़ने के लिए जाल नहीं लाया है।\" राजा ने कहा, \"लेकिन शायद वह नाव में छिपा हुआ है?\" बीरबल ने मुस्कुराते हुए जवाब दिया, \"महाराज, यदि जाल छिपा हुआ होता, तो उस व्यक्ति के चेहरे पर इतनी चिंता क्यों दिखाई देती?\" अकबर बीरबल की बुद्धिमत्ता से प्रभावित हुए। इस कहानी का संदेश है: सिर्फ देखने से नहीं, गहराई से सोचने से समस्या का समाधान मिलता है। कहानी समाप्त।",
@@ -80,7 +94,7 @@ const LaunchRequestHandler = {
         sessionAttributes.inSkillSession = true;
         handlerInput.attributesManager.setSessionAttributes(sessionAttributes);
         
-        const speakOutput = "Welcome to the World of Stories! I have stories in both English and Hindi with important life lessons. For English stories, just say 'tell me the fox story'. For Hindi stories, you need to be very specific - say 'tell me the animal friends story from panchtantra' or 'tell me the birbal story in hindi'. If you're having trouble, first say 'Hindi stories' to get more options. Which would you like to hear?";
+        const speakOutput = "Welcome to the World of Stories! I have many stories in both English and Hindi with important life lessons. To browse English stories, say 'English stories'. For Hindi stories, say 'Hindi stories'. When requesting Hindi stories, please include 'world of stories' before your request to prevent other skills from being triggered. What would you like to hear today?";
 
         return handlerInput.responseBuilder
             .speak(speakOutput)
@@ -219,7 +233,7 @@ const HelpIntentHandler = {
             && Alexa.getIntentName(handlerInput.requestEnvelope) === 'AMAZON.HelpIntent';
     },
     handle(handlerInput) {
-        const speakOutput = 'This is the World of Stories skill with stories in English and Hindi. For English stories, you can say "tell me the fox story", "tell me the owl story", "tell me the turtle story", or "tell me the elephant story". For Hindi stories, you can say "tell me the rabbit story in Hindi", "tell me the lion story in Hindi", or try our classic Indian tales by saying "tell me the Birbal story in Hindi", "tell me the Tenali Raman story in Hindi", "tell me the Panchtantra story in Hindi", or "tell me the Vikram Betaal story in Hindi". If you miss anything, just say "repeat that". Which would you like to hear?';
+        const speakOutput = 'This is the World of Stories skill with stories in English and Hindi. For English stories, you can say phrases like "tell me the fox story" or "tell me the eagle story". For Hindi stories, always include "world of stories" before your request, like "world of stories mor ki kahani" or "world of stories akbar birbal ki kahani". This prevents other skills from being triggered. If you miss anything, just say "repeat that". Which would you like to hear?';
 
         return handlerInput.responseBuilder
             .speak(speakOutput)
@@ -253,7 +267,7 @@ const FallbackIntentHandler = {
             && Alexa.getIntentName(handlerInput.requestEnvelope) === 'AMAZON.FallbackIntent';
     },
     handle(handlerInput) {
-        const speakOutput = "Sorry, I didn't catch that. Make sure you're in the World of Stories skill first by saying \"open world of stories\". Then, for English stories, say \"tell me the fox story\" or \"tell me the turtle story\". For Hindi stories, specifically say \"tell me the rabbit story in Hindi\" or \"tell me the lion story in Hindi\". Which would you like to hear?";
+        const speakOutput = "Sorry, I didn't catch that. To make sure you're using this skill and not another one, always start by saying \"open world of stories\" and then make your request. For Hindi stories, be specific by saying \"tell me the world of stories rabbit story in Hindi\" or \"world of stories mor ki kahani\". For English stories, try \"tell me the fox story\". Which story would you like to hear?";
 
         return handlerInput.responseBuilder
             .speak(speakOutput)
@@ -322,7 +336,7 @@ const EnglishStoriesIntentHandler = {
             && Alexa.getIntentName(handlerInput.requestEnvelope) === 'EnglishStoriesIntent';
     },
     handle(handlerInput) {
-        const speakOutput = "Great! For English stories, I can tell you about a brave fox, a wise owl, a persistent turtle, or a kind elephant. Which one would you like to hear?";
+        const speakOutput = "Great! For English stories, I can tell you about a brave fox, a wise owl, a persistent turtle, a kind elephant, a resourceful giraffe, a hardworking beaver, or a teamwork-loving eagle. Which one would you like to hear?";
 
         return handlerInput.responseBuilder
             .speak(speakOutput)
@@ -337,7 +351,7 @@ const HindiStoriesIntentHandler = {
             && Alexa.getIntentName(handlerInput.requestEnvelope) === 'HindiStoriesIntent';
     },
     handle(handlerInput) {
-        const speakOutput = "Great! For Hindi stories, I have animal stories about a rabbit (khargosh), lion (sher), monkey (bandar), or peacock (mor). I also have classic Indian tales. For Akbar-Birbal, say 'tell me the Birbal story in Hindi'. For Tenali Raman, say 'tell me the Tenali story in Hindi'. For the Panchtantra, say 'tell me the animal friends story from Panchtantra'. For Vikram-Betaal, say 'tell me the Vikram story in Hindi'. Which would you like to hear?";
+        const speakOutput = "Great! For Hindi stories, I have animal stories about a rabbit, lion, monkey, or peacock. I also have stories about a butterfly, a sunflower, and a mountain climber. For classic Indian tales, try Akbar-Birbal, Tenali Raman, Panchtantra, or Vikram-Betaal. To make sure this skill responds and not others, say \"world of stories\" before your Hindi request, like \"world of stories mor ki kahani\" or \"world of stories akbar birbal ki kahani\". Which would you like to hear?";
 
         return handlerInput.responseBuilder
             .speak(speakOutput)
@@ -440,6 +454,102 @@ const VikramStoryIntentHandler = {
     }
 };
 
+// Add handlers for the new English stories
+const GiraffeStoryIntentHandler = {
+    canHandle(handlerInput) {
+        return Alexa.getRequestType(handlerInput.requestEnvelope) === 'IntentRequest'
+            && Alexa.getIntentName(handlerInput.requestEnvelope) === 'GiraffeStoryIntent';
+    },
+    handle(handlerInput) {
+        setLastStory(handlerInput, 'giraffeStory');
+        return handlerInput.responseBuilder
+            .speak(storyContent.giraffeStory)
+            .getResponse();
+    }
+};
+
+const BeaverStoryIntentHandler = {
+    canHandle(handlerInput) {
+        return Alexa.getRequestType(handlerInput.requestEnvelope) === 'IntentRequest'
+            && Alexa.getIntentName(handlerInput.requestEnvelope) === 'BeaverStoryIntent';
+    },
+    handle(handlerInput) {
+        setLastStory(handlerInput, 'beaverStory');
+        return handlerInput.responseBuilder
+            .speak(storyContent.beaverStory)
+            .getResponse();
+    }
+};
+
+const EagleStoryIntentHandler = {
+    canHandle(handlerInput) {
+        return Alexa.getRequestType(handlerInput.requestEnvelope) === 'IntentRequest'
+            && Alexa.getIntentName(handlerInput.requestEnvelope) === 'EagleStoryIntent';
+    },
+    handle(handlerInput) {
+        setLastStory(handlerInput, 'eagleStory');
+        return handlerInput.responseBuilder
+            .speak(storyContent.eagleStory)
+            .getResponse();
+    }
+};
+
+// Add handlers for new Hindi stories
+const ButterflyStoryHindiIntentHandler = {
+    canHandle(handlerInput) {
+        return Alexa.getRequestType(handlerInput.requestEnvelope) === 'IntentRequest'
+            && Alexa.getIntentName(handlerInput.requestEnvelope) === 'ButterflyStoryHindiIntent';
+    },
+    handle(handlerInput) {
+        setLastStory(handlerInput, 'butterflyStoryHindi');
+        return handlerInput.responseBuilder
+            .speak(storyContent.butterflyStoryHindi)
+            .getResponse();
+    }
+};
+
+const SunflowerStoryHindiIntentHandler = {
+    canHandle(handlerInput) {
+        return Alexa.getRequestType(handlerInput.requestEnvelope) === 'IntentRequest'
+            && Alexa.getIntentName(handlerInput.requestEnvelope) === 'SunflowerStoryHindiIntent';
+    },
+    handle(handlerInput) {
+        setLastStory(handlerInput, 'sunflowerStoryHindi');
+        return handlerInput.responseBuilder
+            .speak(storyContent.sunflowerStoryHindi)
+            .getResponse();
+    }
+};
+
+const MountainStoryHindiIntentHandler = {
+    canHandle(handlerInput) {
+        return Alexa.getRequestType(handlerInput.requestEnvelope) === 'IntentRequest'
+            && Alexa.getIntentName(handlerInput.requestEnvelope) === 'MountainStoryHindiIntent';
+    },
+    handle(handlerInput) {
+        setLastStory(handlerInput, 'mountainStoryHindi');
+        return handlerInput.responseBuilder
+            .speak(storyContent.mountainStoryHindi)
+            .getResponse();
+    }
+};
+
+// Add a handler for developer information
+const DeveloperInfoIntentHandler = {
+    canHandle(handlerInput) {
+        return Alexa.getRequestType(handlerInput.requestEnvelope) === 'IntentRequest'
+            && Alexa.getIntentName(handlerInput.requestEnvelope) === 'DeveloperInfoIntent';
+    },
+    handle(handlerInput) {
+        const speakOutput = "This World of Stories skill was created by Anupam Jain. He developed this skill to share engaging stories with important life lessons in both English and Hindi. Would you like to hear one of these stories now?";
+        
+        return handlerInput.responseBuilder
+            .speak(speakOutput)
+            .reprompt("Would you like to hear an English story or a Hindi story?")
+            .getResponse();
+    }
+};
+
 // Add a response interceptor to save session state
 const SessionAttributesResponseInterceptor = {
     process(handlerInput) {
@@ -466,18 +576,36 @@ exports.handler = Alexa.SkillBuilders.custom()
         HelloWorldIntentHandler,
         EnglishStoriesIntentHandler,
         HindiStoriesIntentHandler,
+        
+        // Original English stories
         FoxStoryIntentHandler,
         OwlStoryIntentHandler,
         TurtleStoryIntentHandler,
         ElephantStoryIntentHandler,
+        
+        // New English stories
+        GiraffeStoryIntentHandler,
+        BeaverStoryIntentHandler,
+        EagleStoryIntentHandler,
+        
+        // Original Hindi stories
         RabbitStoryHindiIntentHandler,
         LionStoryHindiIntentHandler,
         MonkeyStoryHindiIntentHandler,
         PeacockStoryHindiIntentHandler,
+        
+        // New Hindi stories
+        ButterflyStoryHindiIntentHandler,
+        SunflowerStoryHindiIntentHandler,
+        MountainStoryHindiIntentHandler,
+        
+        // Original classic Hindi tales
         BirbalStoryIntentHandler,
         TenaliStoryIntentHandler,
         PanchtantraStoryIntentHandler,
         VikramStoryIntentHandler,
+        
+        DeveloperInfoIntentHandler,
         RepeatStoryIntentHandler,
         HelpIntentHandler,
         CancelAndStopIntentHandler,
