@@ -32,18 +32,48 @@
       "isAvailableWorldwide": true,
       "locales": {
         "en-IN": {
-          "description": "Sample Full Description",
+          "description": "World of Stories is an engaging storytelling skill that offers a diverse collection of stories in both English and Hindi. Each story is carefully crafted to deliver important moral lessons in an entertaining way. The skill features animal stories, folk tales, and classic Indian narratives like Akbar-Birbal, Tenali Raman, Panchtantra, and Vikram-Betaal.\n\nWith simple voice commands, users can navigate between English and Hindi stories, catering to a wide audience including children and adults. The stories promote values like kindness, perseverance, teamwork, honesty, and resourcefulness through memorable characters and situations.\n\nFeatures include:\n- Multiple English stories featuring animals like fox, owl, turtle, elephant, giraffe, beaver, and eagle\n- Hindi stories with rabbit, lion, monkey, peacock, butterfly, sunflower, and mountain climber\n- Classic Indian folk tales and wisdom stories\n- Easy navigation between languages\n- Ability to repeat stories\n- All stories conclude with valuable life lessons\n\nThis skill is perfect for bedtime storytelling, family entertainment, or simply enjoying a good story while learning important life values.",
           "examplePhrases": [
-            "Alexa open hello world",
-            "hello",
-            "help"
+            "Alexa, open world of stories",
+            "Alexa, ask world of stories to tell me the fox story",
+            "Alexa, ask world of stories for Hindi stories"
           ],
-          "keywords": [],
-          "name": "Anupam Story",
-          "summary": "Sample Short Description"
+          "keywords": [
+            "stories",
+            "storytelling",
+            "hindi",
+            "english",
+            "moral",
+            "children",
+            "animal",
+            "folk tales",
+            "bedtime stories",
+            "akbar birbal",
+            "tenali raman",
+            "panchtantra",
+            "vikram betaal",
+            "kids",
+            "education",
+            "learning"
+          ],
+          "name": "World of Stories",
+          "summary": "An engaging collection of moral stories in English and Hindi featuring animals and classic Indian tales, perfect for all ages."
         }
       },
-      "testingInstructions": "Sample Testing Instructions."
+      "testingInstructions": "To test this skill:\n\n1. Launch by saying 'Alexa, open world of stories'\n\n2. For English stories, say:\n- 'tell me the fox story'\n- 'tell me about the owl'\n- 'tell me the turtle story'\n- etc.\n\n3. For Hindi stories, be sure to include 'world of stories' prefix to prevent other skills from being triggered:\n- 'world of stories mor ki kahani'\n- 'world of stories akbar birbal ki kahani'\n\n4. To switch between language options say:\n- 'English stories'\n- 'Hindi stories'\n\n5. If the user misses part of a story, they can say 'repeat the story'\n\n6. To ask about the developer, say 'who created this skill'\n\nNo account linking or premium content is required. All stories are appropriate for all ages."
+    },
+    "privacyAndCompliance": {
+      "allowsPurchases": false,
+      "usesPersonalInfo": false,
+      "isChildDirected": true,
+      "isExportCompliant": true,
+      "containsAds": false,
+      "locales": {
+        "en-IN": {
+          "privacyPolicyUrl": "https://www.example.com/privacy-policy",
+          "termsOfUseUrl": "https://www.example.com/terms-of-use"
+        }
+      }
     }
   }
 }
