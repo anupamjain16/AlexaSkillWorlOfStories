@@ -1,0 +1,337 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": [
+            "how does this work",
+            "what can I do",
+            "what stories do you have",
+            "what can you tell me",
+            "give me options"
+          ]
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": [
+            "that's enough",
+            "no more stories"
+          ]
+        },
+        {
+          "name": "AMAZON.RepeatIntent",
+          "samples": []
+        },
+        {
+          "slots": [],
+          "name": "HelloWorldIntent",
+          "samples": [
+            "hello",
+            "how are you",
+            "say hi world",
+            "say hi",
+            "hi",
+            "say hello world",
+            "say hello",
+            "tell me a story",
+            "story time",
+            "I want a story",
+            "start a story",
+            "begin storytelling",
+            "story please",
+            "narrate a story"
+          ]
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "name": "FoxStoryIntent",
+          "slots": [],
+          "samples": [
+            "tell me about the fox",
+            "tell me the fox story",
+            "brave fox story",
+            "fox story",
+            "I want to hear about the fox",
+            "tell the fox story",
+            "share the fox tale",
+            "narrate the fox story",
+            "fox tale please",
+            "the brave fox",
+            "story of fox"
+          ]
+        },
+        {
+          "name": "OwlStoryIntent",
+          "slots": [],
+          "samples": [
+            "tell me about the owl",
+            "tell me the owl story",
+            "the owl story please",
+            "story about the wise owl",
+            "I want to hear about the owl",
+            "tell the owl story",
+            "share the owl tale",
+            "narrate the owl story",
+            "owl tale please",
+            "the wise owl",
+            "story of owl"
+          ]
+        },
+        {
+          "name": "TurtleStoryIntent",
+          "slots": [],
+          "samples": [
+            "tell me about the turtle",
+            "tell me the turtle story",
+            "turtle story",
+            "story about the turtle",
+            "I want to hear about the turtle",
+            "tell the turtle story",
+            "share the turtle tale",
+            "narrate the turtle story",
+            "turtle tale please",
+            "the patient turtle",
+            "story of turtle",
+            "slow turtle"
+          ]
+        },
+        {
+          "name": "ElephantStoryIntent",
+          "slots": [],
+          "samples": [
+            "tell me about the elephant",
+            "tell me the elephant story",
+            "elephant story",
+            "story about the elephant",
+            "I want to hear about the elephant",
+            "tell the elephant story",
+            "share the elephant tale",
+            "narrate the elephant story",
+            "elephant tale please",
+            "the kind elephant",
+            "story of elephant",
+            "big elephant"
+          ]
+        },
+        {
+          "name": "RabbitStoryHindiIntent",
+          "slots": [],
+          "samples": [
+            "tell me about the rabbit in Hindi",
+            "tell me the rabbit story in Hindi",
+            "rabbit story in Hindi language",
+            "Hindi language rabbit story",
+            "I want to hear the Hindi rabbit story",
+            "rabbit Hindi story",
+            "world of stories rabbit Hindi",
+            "khargosh ki kahani",
+            "khargosh ki kahani sunao",
+            "Hindi rabbit tale",
+            "rabbit tale in Hindi",
+            "I want the rabbit story in Hindi",
+            "Hindi story rabbit",
+            "world of stories Hindi rabbit story"
+          ]
+        },
+        {
+          "name": "LionStoryHindiIntent",
+          "slots": [],
+          "samples": [
+            "tell me about the lion in Hindi",
+            "tell me the lion story in Hindi",
+            "lion story in Hindi language",
+            "Hindi language lion story",
+            "I want to hear the Hindi lion story",
+            "lion Hindi story",
+            "world of stories lion Hindi",
+            "sher ki kahani",
+            "sher ki kahani sunao",
+            "Hindi lion tale",
+            "lion tale in Hindi",
+            "I want the lion story in Hindi",
+            "Hindi story lion",
+            "world of stories Hindi lion story"
+          ]
+        },
+        {
+          "name": "MonkeyStoryHindiIntent",
+          "slots": [],
+          "samples": [
+            "tell me about the monkey in Hindi",
+            "tell me the monkey story in Hindi",
+            "monkey story in Hindi language",
+            "Hindi language monkey story",
+            "I want to hear the Hindi monkey story",
+            "monkey Hindi story",
+            "world of stories monkey Hindi",
+            "bandar ki kahani",
+            "bandar ki kahani sunao",
+            "Hindi monkey tale",
+            "monkey tale in Hindi",
+            "I want the monkey story in Hindi",
+            "Hindi story monkey",
+            "world of stories Hindi monkey story"
+          ]
+        },
+        {
+          "name": "PeacockStoryHindiIntent",
+          "slots": [],
+          "samples": [
+            "tell me about the peacock in Hindi",
+            "tell me the peacock story in Hindi",
+            "peacock story in Hindi language",
+            "Hindi language peacock story",
+            "I want to hear the Hindi peacock story",
+            "peacock Hindi story",
+            "world of stories peacock Hindi",
+            "mor ki kahani",
+            "mor ki kahani sunao",
+            "Hindi peacock tale",
+            "peacock tale in Hindi",
+            "I want the peacock story in Hindi",
+            "Hindi story peacock",
+            "world of stories Hindi peacock story"
+          ]
+        },
+        {
+          "name": "EnglishStoriesIntent",
+          "slots": [],
+          "samples": [
+            "English stories",
+            "tell me English stories",
+            "I want to hear stories in English",
+            "English",
+            "I prefer English",
+            "give me English stories",
+            "English language stories",
+            "stories in English please",
+            "storytelling in English",
+            "change to English",
+            "speak English stories"
+          ]
+        },
+        {
+          "name": "HindiStoriesIntent",
+          "slots": [],
+          "samples": [
+            "Hindi stories",
+            "tell me Hindi stories",
+            "I want to hear stories in Hindi",
+            "Hindi",
+            "I prefer Hindi",
+            "give me Hindi stories",
+            "Hindi kahaniyan",
+            "Hindi mein kahani sunao",
+            "Hindi language stories",
+            "stories in Hindi please",
+            "storytelling in Hindi",
+            "change to Hindi",
+            "speak Hindi stories",
+            "Hindi story options"
+          ]
+        },
+        {
+          "name": "BirbalStoryIntent",
+          "slots": [],
+          "samples": [
+            "tell me about Birbal in Hindi",
+            "tell me the Birbal story in Hindi",
+            "Birbal story in Hindi language",
+            "Hindi language Birbal story",
+            "I want to hear the Hindi Birbal story",
+            "Birbal Hindi story",
+            "world of stories Birbal Hindi",
+            "akbar birbal ki kahani",
+            "birbal ki kahani sunao",
+            "birbal ki buddhi",
+            "akbar aur birbal"
+          ]
+        },
+        {
+          "name": "TenaliStoryIntent",
+          "slots": [],
+          "samples": [
+            "tell me about Tenali Raman in Hindi",
+            "tell me the Tenali Raman story in Hindi",
+            "Tenali story in Hindi language",
+            "Hindi language Tenali story",
+            "I want to hear the Hindi Tenali story",
+            "Tenali Hindi story",
+            "world of stories Tenali Hindi",
+            "tenali raman ki kahani",
+            "tenali ki kahani sunao"
+          ]
+        },
+        {
+          "name": "PanchtantraStoryIntent",
+          "slots": [],
+          "samples": [
+            "tell me the animal friends panchtantra story in hindi",
+            "tell me a story from panchtantra in hindi",
+            "hindi panchtantra animal story",
+            "animal friends story from panchtantra",
+            "story about animal friends in hindi",
+            "tell me the friendship panchtantra story in hindi",
+            "I want to hear a panchtantra tale in hindi",
+            "tell the story of friendship from panchtantra",
+            "tell the hindi story with four animal friends",
+            "story of deer crow mouse and turtle in hindi",
+            "four animal friends hindi story",
+            "tell me the panchtantra story with the animals",
+            "panchtantra tale about friends",
+            "panchtantra ki dosti wali kahani",
+            "panchtantra ke janwar dost ki kahani"
+          ]
+        },
+        {
+          "name": "VikramStoryIntent",
+          "slots": [],
+          "samples": [
+            "tell me about Vikram Betaal in Hindi",
+            "tell me the Vikram Betaal story in Hindi",
+            "Vikram story in Hindi language",
+            "Hindi language Vikram story",
+            "I want to hear the Hindi Vikram story",
+            "Vikramaditya Hindi story",
+            "world of stories Vikram Hindi",
+            "vikram betaal ki kahani",
+            "betaal ki kahani sunao",
+            "vikramaditya ki kahani"
+          ]
+        },
+        {
+          "name": "RepeatStoryIntent",
+          "slots": [],
+          "samples": [
+            "repeat the story",
+            "tell me that again",
+            "say it again",
+            "repeat",
+            "can you repeat that",
+            "I missed that",
+            "one more time",
+            "tell the story again",
+            "I want to hear it again",
+            "replay the story",
+            "repeat the last story",
+            "I didn't hear that properly"
+          ]
+        }
+      ],
+      "types": [],
+      "invocationName": "world of stories"
+    }
+  }
+}
